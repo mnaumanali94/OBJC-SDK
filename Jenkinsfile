@@ -10,6 +10,6 @@ node {
         if (projectSettings.HasTests())
         {
         stage 'Test'
-            sh 'xcodebuild -workspace "Tester.xcworkspace" -scheme "Tester" -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 6s,OS=9.3" test'
+            sh 'xcodebuild -workspace "Tester.xcworkspace" -scheme "Tester" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.3' test'
         }
 }
