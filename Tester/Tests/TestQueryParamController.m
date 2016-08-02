@@ -1,7 +1,7 @@
 /*
  * Tester
  *
- * This file was automatically generated for Stamplay by APIMATIC v2.0 on 08/01/2016
+ * This file was automatically generated for Stamplay by APIMATIC v2.0 on 08/02/2016
  */
 #import <XCTest/XCTest.h>
 #import "QueryParamController.h"
@@ -35,8 +35,8 @@
     //Set up test expectations
     XCTestExpectation *expectation =[self expectationWithDescription:@"High Expectations"];
     // Parameters for the API call
-    BOOL boolean = [NSNumber numberWithBool: [@"true" boolValue]];
-    int number = [NSNumber numberWithInteger: [@"4" intValue]];
+    BOOL boolean = [[NSNumber numberWithBool: [@"true" boolValue]][@"true" boolValue]];
+    int number = [[NSNumber numberWithInteger: [@"4" intValue]][@"4" intValue]];
     NSString* string = @"TestString";
     // Dictionary for optional query parameters
     NSMutableDictionary* queryParamsMutable = [[NSMutableDictionary alloc] init];
@@ -142,8 +142,8 @@
     //Set up test expectations
     XCTestExpectation *expectation =[self expectationWithDescription:@"High Expectations"];
     // Parameters for the API call
-    int number = [NSNumber numberWithInteger: [@"123412312" intValue]];
-    double precision = [NSNumber numberWithDouble: [@"1112.34" doubleValue]];
+    int number = [[NSNumber numberWithInteger: [@"123412312" intValue]][@"123412312" intValue]];
+    double precision = [[NSNumber numberWithDouble: [@"1112.34" doubleValue]][@"1112.34" doubleValue]]];
     NSString* string = @"\"\"test./;\";12&&3asl\"\";\"qw1&34\"///..//.";
     NSString* url = @"http://www.abc.com/test?a=b&c=\"http://lolol.com?param=no&another=lol\"";
 

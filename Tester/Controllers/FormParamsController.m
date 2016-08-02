@@ -2,7 +2,7 @@
 //  FormParamsController.m
 //  Tester
 //
-//  This file was automatically generated for Stamplay by APIMATIC v2.0 ( https://apimatic.io ) on 08/01/2016
+//  This file was automatically generated for Stamplay by APIMATIC v2.0 ( https://apimatic.io ) on 08/02/2016
 //
 #import "FormParamsController.h"
 
@@ -30,7 +30,7 @@
 
     //load form parameters
     [_parameters addEntriesFromDictionary: @{
-        @"value": [NSNumber numberWithLongLong:value]
+        @"value": [[NSNumber numberWithLongLong:value]value]
     }];
 
     //convert to form parameters

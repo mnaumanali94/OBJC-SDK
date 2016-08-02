@@ -2,7 +2,7 @@
 //  ResponseTypesController.m
 //  Tester
 //
-//  This file was automatically generated for Stamplay by APIMATIC v2.0 ( https://apimatic.io ) on 08/01/2016
+//  This file was automatically generated for Stamplay by APIMATIC v2.0 ( https://apimatic.io ) on 08/02/2016
 //
 #import "ResponseTypesController.h"
 
@@ -72,7 +72,7 @@
          {
              //return _response to API caller
              NSString* _strResult = [(HttpStringResponse*)_response body];
-             NSNumber* _result = [NSNumber numberWithLongLong:[_strResult longLongValue]];
+             NSNumber* _result = [[NSNumber numberWithLongLong:[_strResult longLongValue]][_strResult longLongValue]];
 
  
              //announce completion with success
@@ -645,7 +645,7 @@
          {
              //return _response to API caller
              NSString* _strResult = [(HttpStringResponse*)_response body];
-             NSNumber* _result = [NSNumber numberWithDouble: [_strResult doubleValue]];
+             NSNumber* _result = [[NSNumber numberWithDouble: [_strResult doubleValue]][_strResult doubleValue]]];
 
  
              //announce completion with success
@@ -798,7 +798,7 @@
          {
              //return _response to API caller
              NSString* _strResult = [(HttpStringResponse*)_response body];
-             NSNumber* _result = [NSNumber numberWithInteger: [_strResult intValue]];
+             NSNumber* _result = [[NSNumber numberWithInteger: [_strResult intValue]][_strResult intValue]];
 
  
              //announce completion with success
@@ -1285,7 +1285,7 @@
          {
              //return _response to API caller
              NSString* _strResult = [(HttpStringResponse*)_response body];
-             NSNumber* _result = [NSNumber numberWithBool: [_strResult boolValue]];
+             NSNumber* _result = [[NSNumber numberWithBool: [_strResult boolValue]][_strResult boolValue]];
 
  
              //announce completion with success

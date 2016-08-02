@@ -2,7 +2,7 @@
 //  QueryParamController.m
 //  Tester
 //
-//  This file was automatically generated for Stamplay by APIMATIC v2.0 ( https://apimatic.io ) on 08/01/2016
+//  This file was automatically generated for Stamplay by APIMATIC v2.0 ( https://apimatic.io ) on 08/02/2016
 //
 #import "QueryParamController.h"
 
@@ -40,7 +40,7 @@
     //process optional query parameters
     [APIHelper appendUrl: _queryBuilder withQueryParameters: @{
                     @"boolean": (boolean ? @"true" : @"false"),
-                    @"number": [NSNumber numberWithInteger: number],
+                    @"number": [[NSNumber numberWithInteger: number]number],
                     @"string": string
                 }];
 
@@ -418,8 +418,8 @@
 
     //process optional query parameters
     [APIHelper appendUrl: _queryBuilder withQueryParameters: @{
-                    @"number": [NSNumber numberWithInteger: number],
-                    @"precision": [NSNumber numberWithDouble: precision],
+                    @"number": [[NSNumber numberWithInteger: number]number],
+                    @"precision": [[NSNumber numberWithDouble: precision]precision]],
                     @"string": string,
                     @"url": url
                 }];

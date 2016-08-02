@@ -1,7 +1,7 @@
 /*
  * Tester
  *
- * This file was automatically generated for Stamplay by APIMATIC v2.0 on 08/01/2016
+ * This file was automatically generated for Stamplay by APIMATIC v2.0 on 08/02/2016
  */
 #import <XCTest/XCTest.h>
 #import "FormParamsController.h"
@@ -35,7 +35,7 @@
     //Set up test expectations
     XCTestExpectation *expectation =[self expectationWithDescription:@"High Expectations"];
     // Parameters for the API call
-    long value = [NSNumber numberWithLongLong:[@"5147483647" longLongValue]];
+    long value = [[NSNumber numberWithLongLong:[@"5147483647" longLongValue]][@"5147483647" longLongValue]];
 
     // Set callback and perform API call
     [self.controller sendLongAsyncWithValue: value  completionBlock:^(BOOL success, HttpContext* context, ServerResponse* response, NSError* error) { 

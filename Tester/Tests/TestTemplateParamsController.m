@@ -1,7 +1,7 @@
 /*
  * Tester
  *
- * This file was automatically generated for Stamplay by APIMATIC v2.0 on 08/01/2016
+ * This file was automatically generated for Stamplay by APIMATIC v2.0 on 08/02/2016
  */
 #import <XCTest/XCTest.h>
 #import "TemplateParamsController.h"
