@@ -72,7 +72,7 @@
          {
              //return _response to API caller
              NSString* _strResult = [(HttpStringResponse*)_response body];
-             NSNumber* _result = [[NSNumber numberWithLongLong:[_strResult longLongValue]][_strResult longLongValue]];
+             NSNumber* _result = [[NSNumber numberWithLongLong:[_strResult longLongValue]]longLongValue];
 
  
              //announce completion with success
@@ -645,7 +645,7 @@
          {
              //return _response to API caller
              NSString* _strResult = [(HttpStringResponse*)_response body];
-             NSNumber* _result = [[NSNumber numberWithDouble: [_strResult doubleValue]][_strResult doubleValue]]];
+             NSNumber* _result = [[NSNumber numberWithDouble: [_strResult doubleValue]]doubleValue];
 
  
              //announce completion with success
@@ -798,7 +798,7 @@
          {
              //return _response to API caller
              NSString* _strResult = [(HttpStringResponse*)_response body];
-             NSNumber* _result = [[NSNumber numberWithInteger: [_strResult intValue]][_strResult intValue]];
+             NSNumber* _result = [[NSNumber numberWithInteger: [_strResult intValue]]intValue];
 
  
              //announce completion with success
@@ -1285,7 +1285,7 @@
          {
              //return _response to API caller
              NSString* _strResult = [(HttpStringResponse*)_response body];
-             NSNumber* _result = [[NSNumber numberWithBool: [_strResult boolValue]][_strResult boolValue]];
+             NSNumber* _result = [[NSNumber numberWithBool: [_strResult boolValue]]boolValue];
 
  
              //announce completion with success

@@ -40,7 +40,7 @@
     //process optional query parameters
     [APIHelper appendUrl: _queryBuilder withQueryParameters: @{
                     @"boolean": (boolean ? @"true" : @"false"),
-                    @"number": [[NSNumber numberWithInteger: number]number],
+                    @"number": [[NSNumber numberWithInteger: number]intValue],
                     @"string": string
                 }];
 
@@ -418,8 +418,8 @@
 
     //process optional query parameters
     [APIHelper appendUrl: _queryBuilder withQueryParameters: @{
-                    @"number": [[NSNumber numberWithInteger: number]number],
-                    @"precision": [[NSNumber numberWithDouble: precision]precision]],
+                    @"number": [[NSNumber numberWithInteger: number]intValue],
+                    @"precision": [[NSNumber numberWithDouble: precision]doubleValue],
                     @"string": string,
                     @"url": url
                 }];

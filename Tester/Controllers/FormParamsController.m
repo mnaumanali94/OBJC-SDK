@@ -30,7 +30,7 @@
 
     //load form parameters
     [_parameters addEntriesFromDictionary: @{
-        @"value": [[NSNumber numberWithLongLong:value]value]
+        @"value": [[NSNumber numberWithLongLong:value]longLongValue]
     }];
 
     //convert to form parameters
