@@ -2,7 +2,7 @@ machine:
   xcode:
     version: 7.3
   environment:
-    CODE_WORKSPACE: Tester.xcworkspace
+    XCODE_WORKSPACE: Tester.xcworkspace
 
 dependencies:
   override:   
