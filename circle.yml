@@ -3,7 +3,7 @@ machine:
     version: 7.3
   environment:
     XCODE_WORKSPACE: Tester.xcworkspace
-    XCODE_SCHEME: Tester.xcscheme
+    XCODE_SCHEME: Tester
 
 dependencies:
   override:   
