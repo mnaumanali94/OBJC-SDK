@@ -2,5 +2,5 @@ language: objective-c
 osx_image: xcode7.3
 
 script:
-  - xcodebuild -workspace Tester.xcworkspace -scheme Tester ONLY_ACTIVE_ARCH=NO
-  - xcodebuild -workspace Tester.xcworkspace -scheme Tester -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.3' test
+  - xcodebuild -workspace OAuth1Tester.xcworkspace -scheme OAuth1Tester ONLY_ACTIVE_ARCH=NO
+  - xcodebuild -workspace OAuth1Tester.xcworkspace -scheme OAuth1Tester -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.3' test

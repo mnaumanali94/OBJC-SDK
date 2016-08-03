@@ -7,7 +7,7 @@ def required_pods
 	pod 'ISO8601DateFormatter', '~> 0.7'
 end
 
-target 'Tester' do
+target 'OAuth1Tester' do
     required_pods
 end
 

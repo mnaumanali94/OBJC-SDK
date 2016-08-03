@@ -2,8 +2,8 @@ machine:
   xcode:
     version: 7.3
   environment:
-    XCODE_WORKSPACE: Tester.xcworkspace
-    XCODE_SCHEME: Tester
+    XCODE_WORKSPACE: OAuth1Tester.xcworkspace
+    XCODE_SCHEME: OAuth1Tester
 
 dependencies:
   override:   
