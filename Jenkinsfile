@@ -1,4 +1,4 @@
-node {
+node('iMac') {
         stage 'Checkout'
             checkout scm	
 
